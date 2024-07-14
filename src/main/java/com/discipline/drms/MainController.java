@@ -1,14 +1,10 @@
 package com.discipline.drms;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
 
-public class HelloController {
+public class MainController {
     @FXML
-    private Label welcomeText;
-
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    private void handleCloseAction() {
+        System.out.println("Close menu item clicked");
     }
 }
