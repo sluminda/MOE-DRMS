@@ -1,16 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
-    <top>
-        <fx:include source="../templates/header.fxml"/>
-    </top>
-    <center>
-        <Pane fx:id="mainArea" />
-    </center>
-    <bottom>
-        <fx:include source="../templates/footer.fxml" />
-    </bottom>
-</BorderPane>
+<HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21">
+   <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />
+   <VBox>
+      <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />
+      <AnchorPane prefHeight="600.0" prefWidth="495.0" style="-fx-background-color: #D5D8DC;">
+         <ImageView fitHeight="359.0" fitWidth="309.0" layoutX="15.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../images/windows/login/wallpaper.jpg" />
+         </ImageView>
+         <Label contentDisplay="CENTER" layoutX="60.0" layoutY="21.0" prefHeight="35.0" prefWidth="220.0" text="Welcome to DRMS" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font name="Open Sans Bold" size="24.0" />
+            </font>
+         </Label>
+      </AnchorPane>
+      <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />
+   </VBox>
+   <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />
+   <Region prefHeight="200.0" prefWidth="200.0" />
+   <VBox>
+      <Region prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane prefHeight="500.0" prefWidth="445.0">
+         <Label layoutX="22.0" layoutY="127.0" text="Username">
+            <font>
+               <Font name="Roboto" size="18.0" />
+            </font>
+         </Label>
+         <Label layoutX="23.0" layoutY="172.0" text="Password">
+            <font>
+               <Font name="Roboto" size="18.0" />
+            </font>
+         </Label>
+         <TextField layoutX="116.0" layoutY="126.0" />
+         <PasswordField layoutX="116.0" layoutY="171.0" />
+         <Label layoutX="108.0" layoutY="58.0" text="Login">
+            <font>
+               <Font name="Open Sans Bold" size="24.0" />
+            </font>
+         </Label>
+         <Button layoutX="141.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Login" />
+         <Hyperlink layoutX="116.0" layoutY="211.0" prefHeight="24.0" prefWidth="98.0" text="Forgot Password" />
+      </AnchorPane>
+      <Region layoutX="10.0" layoutY="510.0" prefHeight="200.0" prefWidth="200.0" />
+   </VBox>
+   <Region prefHeight="200.0" prefWidth="200.0" />
+</HBox>
