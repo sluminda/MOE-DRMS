@@ -5,13 +5,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 public class MainApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/discipline/drms/interfaces/panelPage.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/discipline/drms/interfaces/loginPage.fxml"));
         Parent root = loader.load();
         primaryStage.setMinWidth(850);
         primaryStage.setMinHeight(650);

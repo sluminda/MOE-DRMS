@@ -13,6 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<?import org.kordamp.ikonli.javafx.FontIcon?>
 <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21">
    <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />
    <VBox>
@@ -51,7 +52,11 @@
                <Font name="Open Sans Bold" size="24.0" />
             </font>
          </Label>
-         <Button layoutX="141.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Login" />
+         <Button id="account-button" layoutX="141.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" styleClass="ikonli-font-icon" stylesheets="@../../css/styles.css" text="Login">
+         <graphic>
+            <FontIcon iconLiteral="mdi-account"/>
+         </graphic>
+         </Button>
          <Hyperlink layoutX="116.0" layoutY="211.0" prefHeight="24.0" prefWidth="98.0" text="Forgot Password" />
       </AnchorPane>
       <Region layoutX="10.0" layoutY="510.0" prefHeight="200.0" prefWidth="200.0" />

@@ -10,6 +10,9 @@ module com.discipline.drms {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
+    requires org.apache.commons.codec;
+    requires org.slf4j;
 
     opens com.discipline.drms to javafx.fxml;
     exports com.discipline.drms;
