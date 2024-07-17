@@ -10,7 +10,7 @@ import java.io.IOException;
 public class MainApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/discipline/drms/interfaces/loginPage.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/discipline/drms/interfaces/panelPage.fxml"));
         Parent root = loader.load();
         primaryStage.setMinWidth(850);
         primaryStage.setMinHeight(650);

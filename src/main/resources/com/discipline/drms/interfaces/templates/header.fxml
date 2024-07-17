@@ -13,10 +13,10 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="150.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.discipline.drms.MainController">
+<VBox prefHeight="150.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21">
    <MenuBar>
       <Menu mnemonicParsing="false" text="File">
-         <MenuItem mnemonicParsing="false" onAction="#handleCloseAction" text="Close" />
+         <MenuItem mnemonicParsing="false" text="Close" />
       </Menu>
       <Menu mnemonicParsing="false" text="Edit">
          <MenuItem mnemonicParsing="false" text="Delete" />

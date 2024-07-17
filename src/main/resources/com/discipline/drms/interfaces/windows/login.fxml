@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
@@ -13,7 +14,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<?import org.kordamp.ikonli.javafx.FontIcon?>
 <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21">
    <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />
    <VBox>
@@ -35,29 +35,20 @@
    <VBox>
       <Region prefHeight="200.0" prefWidth="200.0" />
       <AnchorPane prefHeight="500.0" prefWidth="445.0">
-         <Label layoutX="22.0" layoutY="127.0" text="Username">
+         <TextField layoutX="61.0" layoutY="124.0" maxWidth="200.0" prefHeight="28.0" prefWidth="200.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #D5D8DC;">
             <font>
-               <Font name="Roboto" size="18.0" />
-            </font>
-         </Label>
-         <Label layoutX="23.0" layoutY="172.0" text="Password">
-            <font>
-               <Font name="Roboto" size="18.0" />
-            </font>
-         </Label>
-         <TextField layoutX="116.0" layoutY="126.0" />
-         <PasswordField layoutX="116.0" layoutY="171.0" />
-         <Label layoutX="108.0" layoutY="58.0" text="Login">
+               <Font name="Roboto" size="12.0" />
+            </font></TextField>
+         <PasswordField layoutX="61.0" layoutY="169.0" maxWidth="200.0" prefHeight="28.0" prefWidth="200.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #D5D8DC;" />
+         <Label layoutX="111.0" layoutY="53.0" text="Login">
             <font>
                <Font name="Open Sans Bold" size="24.0" />
             </font>
          </Label>
-         <Button id="account-button" layoutX="141.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" styleClass="ikonli-font-icon" stylesheets="@../../css/styles.css" text="Login">
-         <graphic>
-            <FontIcon iconLiteral="mdi-account"/>
-         </graphic>
-         </Button>
-         <Hyperlink layoutX="116.0" layoutY="211.0" prefHeight="24.0" prefWidth="98.0" text="Forgot Password" />
+         <Button layoutX="104.0" layoutY="252.0" prefHeight="28.0" prefWidth="78.0" text="Login" />
+         <Hyperlink layoutX="65.0" layoutY="212.0" prefHeight="25.0" prefWidth="109.0" text="Forgot Password" />
+         <FontAwesomeIconView glyphName="USER" layoutX="28.0" layoutY="143.0" size="18" />
+         <FontAwesomeIconView glyphName="KEY" layoutX="28.0" layoutY="188.0" size="18" />
       </AnchorPane>
       <Region layoutX="10.0" layoutY="510.0" prefHeight="200.0" prefWidth="200.0" />
    </VBox>

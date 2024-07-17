@@ -7,7 +7,7 @@
         <fx:include source="./templates/header.fxml"/>
     </top>
     <center>
-        <fx:include source="./windows/panel.fxml"/>
+        <fx:include source="./windows/admin_panel.fxml"/>
     </center>
     <bottom>
         <fx:include source="./templates/footer.fxml" />
