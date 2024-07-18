@@ -7,3 +7,61 @@ CREATE TABLE users (
                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+
+
+================================================================================
+
+Palette 1: Classic Blue and Gray
+
+:root {
+    --primary-color: #2A3E4C;  /* Dark Blue */
+    --secondary-color: #DAE1E7;  /* Light Gray */
+    --submit-button-color: #4A90E2;  /* Blue */
+    --submit-button-hover-color: #357ABD;  /* Darker Blue */
+    --clear-button-color: #D9534F;  /* Red */
+    --clear-button-hover-color: #C9302C;  /* Darker Red */
+    --container-color-1: #FFFFFF;  /* White */
+    --container-color-2: #F7F9FB;  /* Very Light Gray */
+    --container-color-3: #E1E8ED;  /* Light Gray */
+    --border-color: #C5C9CC;  /* Gray */
+    --text-color: #2A3E4C;  /* Dark Blue */
+    --background-color: #F4F6F8;  /* Light Background Gray */
+}
+
+Palette 2: Navy and Teal
+
+:root {
+    --primary-color: #001F3F;  /* Navy */
+    --secondary-color: #007BFF;  /* Bright Blue */
+    --submit-button-color: #39CCCC;  /* Teal */
+    --submit-button-hover-color: #008B8B;  /* Dark Cyan */
+    --clear-button-color: #FF4136;  /* Red */
+    --clear-button-hover-color: #E12D2B;  /* Darker Red */
+    --container-color-1: #FFFFFF;  /* White */
+    --container-color-2: #F0F8FF;  /* Alice Blue */
+    --container-color-3: #D1E8FF;  /* Light Blue */
+    --border-color: #B0C4DE;  /* Light Steel Blue */
+    --text-color: #001F3F;  /* Navy */
+    --background-color: #E6F7FF;  /* Very Light Blue */
+}
+
+Palette 4: Burgundy and Beige
+
+:root {
+    --primary-color: #800020;  /* Burgundy */
+    --secondary-color: #F5F5DC;  /* Beige */
+    --submit-button-color: #FFA07A;  /* Light Salmon */
+    --submit-button-hover-color: #FF8C69;  /* Darker Salmon */
+    --clear-button-color: #B22222;  /* Firebrick */
+    --clear-button-hover-color: #8B1A1A;  /* Darker Firebrick */
+    --container-color-1: #FFFFFF;  /* White */
+    --container-color-2: #FFF8DC;  /* Cornsilk */
+    --container-color-3: #FDEBD0;  /* Light Beige */
+    --border-color: #D2B48C;  /* Tan */
+    --text-color: #800020;  /* Burgundy */
+    --background-color: #FAF0E6;  /* Light Background Beige */
+}
+
+================================================================================

@@ -1,4 +1,4 @@
-package com.discipline.drms;
+package com.discipline.drms.admin_panel;
 
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;

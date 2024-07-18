@@ -1,5 +1,6 @@
 package com.discipline.drms;
 
+import com.discipline.drms.template.FloatingLabelTextField;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,11 +15,21 @@ public class MainApplication extends Application {
         Parent root = loader.load();
         primaryStage.setMinWidth(850);
         primaryStage.setMinHeight(650);
+
+        FloatingLabelTextField floatingLabelTextField = new FloatingLabelTextField();
+        floatingLabelTextField.setLabelText("Full Name");
+
+//        root.getChildren().add(floatingLabelTextField);
+
+
         Scene scene = new Scene(root, 800, 600);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Hello!");
         primaryStage.show();
+
+
     }
+
 
     public static void main(String[] args) {
         launch(args);
