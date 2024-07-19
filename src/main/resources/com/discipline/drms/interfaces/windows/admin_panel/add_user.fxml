@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="580.0" styleClass="container" stylesheets="@../../../css/admin_panel/add_user.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="580.0" styleClass="container" stylesheets="@../../../css/admin_panel/add_user.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="290.0" styleClass="vbox" HBox.hgrow="ALWAYS">
          <children>
@@ -140,9 +140,9 @@
                   <Insets bottom="10.0" top="10.0" />
                </VBox.margin>
             </VBox>
-            <ScrollPane prefHeight="406.0" prefWidth="220.0" VBox.vgrow="ALWAYS">
+            <ScrollPane maxWidth="1.7976931348623157E308" prefHeight="406.0" prefWidth="220.0" VBox.vgrow="ALWAYS">
                <content>
-                  <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="345.0" prefWidth="204.0" spacing="20.0">
+                  <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" prefHeight="351.0" prefWidth="180.0" spacing="20.0">
                      <children>
                         <HBox alignment="CENTER" maxWidth="350.0" prefHeight="40.0" prefWidth="200.0" styleClass="hbox">
                            <children>
@@ -164,7 +164,7 @@
                         </HBox>
                         <HBox alignment="CENTER" maxWidth="350.0" prefHeight="40.0" prefWidth="200.0" styleClass="hbox">
                            <children>
-                              <TitledPane animated="false" text="Modules">
+                              <TitledPane animated="false" text="Modules" HBox.hgrow="ALWAYS">
                                  <content>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                                        <children>
@@ -182,7 +182,7 @@
                         </HBox>
                         <HBox alignment="CENTER" maxWidth="350.0" prefHeight="40.0" prefWidth="200.0" styleClass="hbox">
                            <children>
-                              <TitledPane animated="false" text="Reports">
+                              <TitledPane animated="false" text="Reports" HBox.hgrow="ALWAYS">
                                  <content>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                                        <children>
@@ -200,7 +200,7 @@
                         </HBox>
                         <HBox alignment="CENTER" maxWidth="350.0" prefHeight="40.0" prefWidth="200.0" styleClass="hbox">
                            <children>
-                              <TitledPane animated="false" text="Master Records">
+                              <TitledPane animated="false" maxWidth="1.7976931348623157E308" text="Master Records">
                                  <content>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                                        <children>
