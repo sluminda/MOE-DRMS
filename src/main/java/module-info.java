@@ -16,6 +16,10 @@ module com.discipline.drms {
 
     opens com.discipline.drms to javafx.fxml;
     exports com.discipline.drms;
+
     exports com.discipline.drms.admin_panel;
     opens com.discipline.drms.admin_panel to javafx.fxml;
+
+    exports com.discipline.drms.master_records;
+    opens com.discipline.drms.master_records to javafx.fxml;
 }

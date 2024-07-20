@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21">
+<HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22">
    <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />
    <VBox>
       <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D5D8DC;" />

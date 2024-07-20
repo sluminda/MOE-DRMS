@@ -12,32 +12,32 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class adminPanel {
+public class AdminPanel {
 
     @FXML
     private StackPane contentPage;
 
-    private static final Logger LOGGER = Logger.getLogger(adminPanel.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(AdminPanel.class.getName());
     private final Map<String, Pane> fxmlCache = new HashMap<>();
 
     @FXML
     private void loadDashboard() {
-        loadFXML("/com/discipline/drms/interfaces/windows/admin_panel/dashboard.fxml");
+        loadFXML("/com/discipline/drms/interfaces/body/admin_panel/dashboard.fxml");
     }
 
     @FXML
     private void loadAddUser() {
-        loadFXML("/com/discipline/drms/interfaces/windows/admin_panel/add_user.fxml");
+        loadFXML("/com/discipline/drms/interfaces/body/admin_panel/add_user.fxml");
     }
 
     @FXML
     private void loadDeleteUser() {
-        loadFXML("/com/discipline/drms/interfaces/windows/admin_panel/remove_user.fxml");
+        loadFXML("/com/discipline/drms/interfaces/body/admin_panel/remove_user.fxml");
     }
 
     @FXML
     private void loadSettings() {
-        loadFXML("/com/discipline/drms/interfaces/windows/admin_panel/settings.fxml");
+        loadFXML("/com/discipline/drms/interfaces/body/admin_panel/settings.fxml");
     }
 
     private void loadFXML(String fxmlFile) {

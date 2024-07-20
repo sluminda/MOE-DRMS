@@ -23,7 +23,7 @@ public class GenerateSampleData {
     public static void createSampleUsers() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/drms";
         String user = "root";
-        String dbPassword = "";
+        String dbPassword = "1220";
 
         try (Connection conn = DriverManager.getConnection(url, user, dbPassword)) {
             insertUser(conn, "lumi", "1234", "Owner");
