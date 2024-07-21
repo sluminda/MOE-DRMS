@@ -250,3 +250,38 @@ Clear Button Color: #F72585 (Magenta)
 Close Button Hover: #FF4C4C (Red)
 Submit Button Hover: #3A52C0 (Darker Blue)
 Clear Button Hover: #D51D6B (Dark Magenta)
+
+
+=================================================
+
+I have fxml file for login.
+
+fxid "user" for username
+fxid "password" for password
+fxid "login" for login button
+
+and this is my table.
+
+CREATE TABLE users (
+                       id INT AUTO_INCREMENT PRIMARY KEY,
+                       username VARCHAR(255) NOT NULL UNIQUE,
+                       password_hash CHAR(100) NOT NULL,
+                       salt CHAR(100) NOT NULL,
+                       role ENUM('Owner', 'Super Admin', 'Admin') NOT NULL,
+                       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                       updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+        String url = "jdbc:mysql://localhost:3306/drms";
+        String user = "root";
+        String dbPassword = "1220";
+
+if user log as Owner,
+
+
+
+if user login success, it redirect to mainPage.fxml. but it just a layout page that combined header, body and footer from other fxml files.
+
+com/discipline/drms/interfaces/body/main_panel.fxml
+
+this is the file that I want to hide vboxes when user login. but user

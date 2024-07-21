@@ -20,4 +20,9 @@ public class PasswordUtil {
         String combined = password + salt;
         return DigestUtils.sha256Hex(combined);
     }
+
+    public static boolean verifyPassword(String password, String passwordHash, String salt) {
+        String hashedPassword = hashPassword(password, salt);
+        return hashedPassword.equals(passwordHash);
+    }
 }

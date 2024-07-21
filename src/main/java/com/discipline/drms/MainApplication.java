@@ -12,8 +12,8 @@ public class MainApplication extends Application {
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/discipline/drms/interfaces/combined/loginPage.fxml"));
         Parent root = loader.load();
-        primaryStage.setMinWidth(850);
-        primaryStage.setMinHeight(650);
+        primaryStage.setMinWidth(800);
+        primaryStage.setMinHeight(600);
 
         Scene scene = new Scene(root, 800, 600);
         primaryStage.setScene(scene);

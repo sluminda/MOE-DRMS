@@ -12,42 +12,41 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<VBox cache="true" prefHeight="150.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21">
 
-<VBox prefHeight="150.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <MenuBar>
-        <menus>
+      <MenuBar cache="true">
+
           <Menu mnemonicParsing="false" text="File">
-            <items>
+
               <MenuItem mnemonicParsing="false" text="Close" />
-            </items>
+
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
-            <items>
+
               <MenuItem mnemonicParsing="false" text="Delete" />
-            </items>
+
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
-            <items>
+
               <MenuItem mnemonicParsing="false" text="About" />
-            </items>
+
           </Menu>
-        </menus>
+
       </MenuBar>
-      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.4" prefWidth="800.0" spacing="20.0" styleClass="container" stylesheets="@../../css/templates/header.css">
-         <children>
+      <HBox alignment="CENTER" cache="true" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.4" prefWidth="800.0" spacing="20.0" styleClass="container" stylesheets="@../../css/templates/header.css">
+
             <VBox alignment="CENTER" maxWidth="1.7976931348623157E308">
-               <children>
+
                   <ImageView fitHeight="140.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
+
                         <Image url="@../../images/templates/MOE_Logo.png" />
-                     </image>
+
                   </ImageView>
-               </children>
+
             </VBox>
             <Region prefHeight="150.0" prefWidth="150.0" HBox.hgrow="ALWAYS" />
             <VBox alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="150.0" prefWidth="558.0" spacing="5.0">
-               <children>
+
                   <Label text="Discipline Records Management System" textFill="WHITE">
                      <font>
                         <Font name="Roboto Bold" size="22.0" />
@@ -68,22 +67,22 @@
                         <Font name="Roboto Bold" size="16.0" />
                      </font>
                   </Label>
-               </children>
+
             </VBox>
             <Region prefHeight="200.0" prefWidth="150.0" HBox.hgrow="ALWAYS" />
             <VBox alignment="CENTER" maxWidth="1.7976931348623157E308">
-               <children>
+
                   <ImageView fitHeight="107.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
+
                         <Image url="@../../images/templates/RightSide_Icon.png" />
-                     </image>
+
                   </ImageView>
-               </children>
+
             </VBox>
-         </children>
+
          <padding>
             <Insets left="20.0" right="20.0" />
          </padding>
       </HBox>
-   </children>
+
 </VBox>

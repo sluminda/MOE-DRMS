@@ -22,4 +22,7 @@ module com.discipline.drms {
 
     exports com.discipline.drms.master_records;
     opens com.discipline.drms.master_records to javafx.fxml;
+
+    exports com.discipline.drms.login;
+    opens com.discipline.drms.login to javafx.fxml;
 }

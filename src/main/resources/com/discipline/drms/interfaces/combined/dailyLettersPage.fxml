@@ -7,7 +7,7 @@
         <fx:include source="../templates/header.fxml"/>
     </top>
     <center>
-        <fx:include source="../body/daily_letters/daily_letters.fxml"/>
+        <fx:include source="../body/daily_letters.fxml"/>
     </center>
     <bottom>
         <fx:include source="../templates/footer.fxml" />

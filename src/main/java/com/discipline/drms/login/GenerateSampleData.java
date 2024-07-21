@@ -26,11 +26,11 @@ public class GenerateSampleData {
         String dbPassword = "1220";
 
         try (Connection conn = DriverManager.getConnection(url, user, dbPassword)) {
-            insertUser(conn, "lumi", "1234", "Owner");
+            insertUser(conn, "lumi", "lumi", "Owner");
             insertUser(conn, "ownerUser2", "ownerPass2", "Owner");
-            insertUser(conn, "sanda", "1234", "Super Admin");
+            insertUser(conn, "sanda", "sanda", "Super Admin");
             insertUser(conn, "superAdminUser2", "superAdminPass2", "Super Admin");
-            insertUser(conn, "adminUser1", "adminPass1", "Admin");
+            insertUser(conn, "sara", "sara", "Admin");
             insertUser(conn, "adminUser2", "adminPass2", "Admin");
         } catch (SQLException e) {
             logger.error("Database connection error", e);
